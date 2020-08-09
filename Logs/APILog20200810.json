@@ -1,0 +1,114 @@
+{"@t":"2020-08-09T14:43:26.0881239Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:43:31.3453650Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:43:31.4891662Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:43:31.9217195Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:44:58.1757479Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:44:59.1826398Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:44:59.3814922Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:44:59.8099489Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:46:40.6485656Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:46:41.1934989Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:46:41.3319775Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:46:41.8008864Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:48:28.0990291Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:48:28.5621308Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:48:28.6880360Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:48:29.0678219Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:57:56.1935984Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:57:56.6758895Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:57:56.7975579Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:57:57.1294490Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T14:58:15.3117701Z","@mt":"Unauthorised Access.","@l":"Error","SourceContext":"NehaExercise.Filters.ExerciseAuthenticationFilter","ActionId":"3c40c8a3-7515-4864-abba-b9c6ac0e4040","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SEIDI6AMP:00000001","RequestPath":"/api/Answers/User","SpanId":"|5c5741f2-42c7dc80436da2da.","TraceId":"5c5741f2-42c7dc80436da2da","ParentId":""}
+{"@t":"2020-08-09T14:58:54.1425871Z","@mt":"Unauthorised Access.","@l":"Error","SourceContext":"NehaExercise.Filters.ExerciseAuthenticationFilter","ActionId":"3c40c8a3-7515-4864-abba-b9c6ac0e4040","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SEIDI6AMR:00000002","RequestPath":"/api/Answers/User","SpanId":"|5c5741f4-42c7dc80436da2da.","TraceId":"5c5741f4-42c7dc80436da2da","ParentId":"","ConnectionId":"0HM1SEIDI6AMR"}
+{"@t":"2020-08-09T15:02:20.8281525Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T15:02:21.2706884Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T15:02:21.3457683Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T15:02:21.5631238Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T15:02:43.8349782Z","@mt":"Get User Entered","SourceContext":"NehaExercise.Controllers.AnswersController","ActionId":"cb25dd61-4564-4d44-b16d-981557d4cb2b","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SEKS4PVM2:00000001","RequestPath":"/api/Answers/User","SpanId":"|ee4ecef2-4f6eab8435a719ce.","TraceId":"ee4ecef2-4f6eab8435a719ce","ParentId":"","ConnectionId":"0HM1SEKS4PVM2"}
+{"@t":"2020-08-09T15:04:30.2598773Z","@mt":"Get User Entered","SourceContext":"NehaExercise.Controllers.AnswersController","ActionId":"cb25dd61-4564-4d44-b16d-981557d4cb2b","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SEKS4PVM2:00000002","RequestPath":"/api/Answers/user","SpanId":"|ee4ecef3-4f6eab8435a719ce.","TraceId":"ee4ecef3-4f6eab8435a719ce","ParentId":"","ConnectionId":"0HM1SEKS4PVM2"}
+{"@t":"2020-08-09T15:22:23.3064806Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T15:22:23.6622909Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T15:22:23.7261608Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T15:22:23.9402375Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T15:23:35.0633675Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T15:23:35.5697803Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T15:23:35.6439665Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T15:23:35.8798238Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T15:28:21.6450804Z","@mt":"Get User Entered","SourceContext":"NehaExercise.Controllers.AnswersController","ActionId":"35167ff9-6945-40e6-b3f5-e9d7fd39a5f8","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SF0NRADVK:00000001","RequestPath":"/api/Answers/user","SpanId":"|c9148083-4d8c44854dc0dcb1.","TraceId":"c9148083-4d8c44854dc0dcb1","ParentId":"","ConnectionId":"0HM1SF0NRADVK"}
+{"@t":"2020-08-09T15:28:21.6514879Z","@mt":"App settings found for userName","SourceContext":"NehaExercise.Controllers.AnswersController","ActionId":"35167ff9-6945-40e6-b3f5-e9d7fd39a5f8","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SF0NRADVK:00000001","RequestPath":"/api/Answers/user","SpanId":"|c9148083-4d8c44854dc0dcb1.","TraceId":"c9148083-4d8c44854dc0dcb1","ParentId":"","ConnectionId":"0HM1SF0NRADVK"}
+{"@t":"2020-08-09T15:28:29.8027319Z","@mt":"Unauthorised Access.","@l":"Error","SourceContext":"NehaExercise.Filters.ExerciseAuthenticationFilter","ActionId":"35167ff9-6945-40e6-b3f5-e9d7fd39a5f8","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SF0NRADVK:00000002","RequestPath":"/api/Answers/user","SpanId":"|c9148084-4d8c44854dc0dcb1.","TraceId":"c9148084-4d8c44854dc0dcb1","ParentId":"","ConnectionId":"0HM1SF0NRADVK"}
+{"@t":"2020-08-09T15:30:12.3429263Z","@mt":"Unauthorised Access.","@l":"Error","SourceContext":"NehaExercise.Filters.ExerciseAuthenticationFilter","ActionId":"35167ff9-6945-40e6-b3f5-e9d7fd39a5f8","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SF0NRADVK:00000003","RequestPath":"/api/Answers/user","SpanId":"|c9148085-4d8c44854dc0dcb1.","TraceId":"c9148085-4d8c44854dc0dcb1","ParentId":"","ConnectionId":"0HM1SF0NRADVK"}
+{"@t":"2020-08-09T17:43:18.9374881Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T17:43:20.0792199Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T17:43:20.9189025Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T17:43:21.4027429Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T17:44:33.0200928Z","@mt":"Unauthorised Access.","@l":"Error","SourceContext":"NehaExercise.Filters.ExerciseAuthenticationFilter","ActionId":"9bea82f1-4083-4669-9592-9f46fe29e0a8","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SHER94629:00000001","RequestPath":"/api/Answers/user/41bee812-7a3b-46c6-a306-5bd481d957a2","SpanId":"|b9484ce5-46543a92d525fe9f.","TraceId":"b9484ce5-46543a92d525fe9f","ParentId":""}
+{"@t":"2020-08-09T17:52:13.0538488Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T17:52:13.5889347Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T17:52:13.7060650Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T17:52:14.1389392Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T18:02:14.9345754Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T18:02:15.3912725Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T18:02:15.4919948Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T18:02:15.8793299Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T18:03:23.0019562Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T18:03:23.4856225Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T18:03:23.5894881Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T18:03:23.9466037Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T18:03:54.0785046Z","@mt":"Get User Entered","SourceContext":"NehaExercise.Controllers.AnswersController","ActionId":"7b041ffd-599c-42f8-9afc-4f34a904431b","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SHQ1DGP4F:00000001","RequestPath":"/api/Answers/user","SpanId":"|84e53b8a-465ee44b16d110a3.","TraceId":"84e53b8a-465ee44b16d110a3","ParentId":"","ConnectionId":"0HM1SHQ1DGP4F"}
+{"@t":"2020-08-09T18:03:54.0867577Z","@mt":"App settings found for userName","SourceContext":"NehaExercise.Controllers.AnswersController","ActionId":"7b041ffd-599c-42f8-9afc-4f34a904431b","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SHQ1DGP4F:00000001","RequestPath":"/api/Answers/user","SpanId":"|84e53b8a-465ee44b16d110a3.","TraceId":"84e53b8a-465ee44b16d110a3","ParentId":"","ConnectionId":"0HM1SHQ1DGP4F"}
+{"@t":"2020-08-09T18:04:21.1184258Z","@mt":"Get User Entered","SourceContext":"NehaExercise.Controllers.AnswersController","ActionId":"7b041ffd-599c-42f8-9afc-4f34a904431b","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SHQ1DGP4F:00000002","RequestPath":"/api/Answers/user","SpanId":"|84e53b8b-465ee44b16d110a3.","TraceId":"84e53b8b-465ee44b16d110a3","ParentId":"","ConnectionId":"0HM1SHQ1DGP4F"}
+{"@t":"2020-08-09T18:04:50.7944626Z","@mt":"Get User Entered","SourceContext":"NehaExercise.Controllers.AnswersController","ActionId":"7b041ffd-599c-42f8-9afc-4f34a904431b","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SHQ1DGP4F:00000002","RequestPath":"/api/Answers/user","SpanId":"|84e53b8b-465ee44b16d110a3.","TraceId":"84e53b8b-465ee44b16d110a3","ParentId":"","ConnectionId":"0HM1SHQ1DGP4F"}
+{"@t":"2020-08-09T18:04:50.8206209Z","@mt":"App settings found for userName","SourceContext":"NehaExercise.Controllers.AnswersController","ActionId":"7b041ffd-599c-42f8-9afc-4f34a904431b","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SHQ1DGP4F:00000002","RequestPath":"/api/Answers/user","SpanId":"|84e53b8b-465ee44b16d110a3.","TraceId":"84e53b8b-465ee44b16d110a3","ParentId":"","ConnectionId":"0HM1SHQ1DGP4F"}
+{"@t":"2020-08-09T18:05:15.8687260Z","@mt":"Unauthorised Access.","@l":"Error","SourceContext":"NehaExercise.Filters.ExerciseAuthenticationFilter","ActionId":"7b041ffd-599c-42f8-9afc-4f34a904431b","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SHQ1DGP4F:00000003","RequestPath":"/api/Answers/user","SpanId":"|84e53b8c-465ee44b16d110a3.","TraceId":"84e53b8c-465ee44b16d110a3","ParentId":"","ConnectionId":"0HM1SHQ1DGP4F"}
+{"@t":"2020-08-09T18:06:09.2113114Z","@mt":"Unauthorised Access.","@l":"Error","SourceContext":"NehaExercise.Filters.ExerciseAuthenticationFilter","ActionId":"7b041ffd-599c-42f8-9afc-4f34a904431b","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SHQ1DGP4F:00000004","RequestPath":"/api/Answers/user","SpanId":"|84e53b8d-465ee44b16d110a3.","TraceId":"84e53b8d-465ee44b16d110a3","ParentId":"","ConnectionId":"0HM1SHQ1DGP4F"}
+{"@t":"2020-08-09T18:06:37.3879400Z","@mt":"Get User Entered","SourceContext":"NehaExercise.Controllers.AnswersController","ActionId":"7b041ffd-599c-42f8-9afc-4f34a904431b","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SHQ1DGP4F:00000005","RequestPath":"/api/Answers/user","SpanId":"|84e53b8e-465ee44b16d110a3.","TraceId":"84e53b8e-465ee44b16d110a3","ParentId":"","ConnectionId":"0HM1SHQ1DGP4F"}
+{"@t":"2020-08-09T18:06:37.7404500Z","@mt":"App settings found for userName","SourceContext":"NehaExercise.Controllers.AnswersController","ActionId":"7b041ffd-599c-42f8-9afc-4f34a904431b","ActionName":"NehaExercise.Controllers.AnswersController.Get (NehaExercise)","RequestId":"0HM1SHQ1DGP4F:00000005","RequestPath":"/api/Answers/user","SpanId":"|84e53b8e-465ee44b16d110a3.","TraceId":"84e53b8e-465ee44b16d110a3","ParentId":"","ConnectionId":"0HM1SHQ1DGP4F"}
+{"@t":"2020-08-09T18:07:51.3270487Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T18:07:51.7552723Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T18:07:51.8602311Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T18:07:52.1909796Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T20:54:41.6777507Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T20:54:42.1569295Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T20:54:42.2820625Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T20:54:43.1513539Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:07:19.8698282Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:07:20.3827653Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:07:20.5269895Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:07:20.8918870Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:14:59.2035532Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:14:59.7060885Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:14:59.8307239Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:15:00.4174482Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:16:14.1221169Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:16:14.6025639Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:16:14.7047462Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:16:15.0260083Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:19:12.5072382Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:19:12.9563937Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:19:13.0557067Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:19:13.4484025Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:21:52.8398071Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:21:53.3679077Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:21:53.4849088Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:21:53.8040536Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:22:17.8692667Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:22:18.3807233Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:22:18.4989146Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:22:18.9557992Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:38:36.1934107Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:38:36.5645432Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:38:36.6404476Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:38:36.8681432Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:56:25.0632665Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:56:25.8336142Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:56:25.9455541Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T21:56:26.2746089Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T22:44:55.3668943Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T22:44:56.0480602Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T22:44:56.1397851Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T22:44:56.4272145Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T22:53:27.3575475Z","@mt":"StartUp : Entered ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T22:53:27.6876472Z","@mt":"StartUp : Exit ConfigureServices","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T22:53:27.8014897Z","@mt":"StartUp : Entered Configure","SourceContext":"NehaExercise.Startup"}
+{"@t":"2020-08-09T22:53:28.0720460Z","@mt":"StartUp : Exit Configure","SourceContext":"NehaExercise.Startup"}

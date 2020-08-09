@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NehaExercise</name>
+    </assembly>
+    <members>
+        <member name="M:NehaExercise.Authentication.TokenAuthenticationRequest.IsSecure(Microsoft.AspNetCore.Http.HttpRequest,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            check token
+            </summary>
+            <param name="request"></param>
+            <param name="config"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NehaExercise.Controllers.AnswersController">
+            <summary>
+            This will provide you access to the answers for exercise
+            </summary>
+        </member>
+        <member name="M:NehaExercise.Controllers.AnswersController.#ctor(Microsoft.Extensions.Logging.ILogger{NehaExercise.Controllers.AnswersController},Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            set up dependencies
+            </summary>
+            <param name="logger"></param>
+            <param name="config"></param>
+        </member>
+        <member name="M:NehaExercise.Controllers.AnswersController.Get(System.String)">
+            <summary>
+            This GET method will return user and token if token is passed in Request header
+            For ex- token : "454444454-4545454"
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NehaExercise.Controllers.AnswersController.GetSortedProducts(System.String,System.String)">
+            <summary>
+            This method will provide sorted list of products based on sortOption provided
+            </summary>
+            <param name="token"></param>
+            <param name="sortOption"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NehaExercise.Helper">
+            <summary>
+            helper class
+            </summary>
+        </member>
+        <member name="M:NehaExercise.Helper.GetToken(Microsoft.AspNetCore.Http.HttpRequest)">
+            <summary>
+            get token either from query string or request header
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NehaExercise.Helper.GetAPIRequestAsync``1(System.Net.Http.HttpClient)">
+            <summary>
+            This method will create GET api request with requested string url
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="httpClient"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
