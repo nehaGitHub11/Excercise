@@ -61,8 +61,21 @@ namespace NehaExercise
             .SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
             services.AddControllers();
+            
+            bool IsTokenAuthRequired = true;
+            if (Configuration.GetSection("ApiSettings:TokenAuthRequired") != null)
+            {
+                IsTokenAuthRequired = Configuration.GetValue<bool>("ApiSettings:TokenAuthRequired");
+                _logger.LogInformation($"Token Auth Required {IsTokenAuthRequired}");
+            }
 
-            services.AddSingleton<IAuthenticateRequest, TokenAuthenticationRequest>();
+            if (IsTokenAuthRequired)
+            {
+                services.AddSingleton<IAuthenticateRequest, TokenAuthenticationRequest>();
+            }
+            else
+                services.AddSingleton<IAuthenticateRequest, NoAuthenticationRequest>();
+
             services.AddSwaggerGen(action =>
             {
                 action.SwaggerDoc("NehaExerciseOpenApiSpec", new OpenApiInfo()
@@ -77,6 +90,7 @@ namespace NehaExercise
             services.AddMvc()
               .AddNewtonsoftJson();
 
+            services.AddHttpClient();
             services.Configure<ApiBehaviorOptions>(options =>
             {
                 options.InvalidModelStateResponseFactory = context =>
@@ -98,7 +112,7 @@ namespace NehaExercise
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-               // app.UseExceptionHandler("/error-local-development");
+                // app.UseExceptionHandler("/error-local-development");
             }
             else
             {
@@ -113,7 +127,7 @@ namespace NehaExercise
             {
                 setupAction.SwaggerEndpoint("/swagger/NehaExerciseOpenApiSpec/swagger.json", "NehaExerciseAPI");
                 setupAction.RoutePrefix = string.Empty;
-            });          
+            });
 
             app.UseRouting();
             app.UseCors(x => x

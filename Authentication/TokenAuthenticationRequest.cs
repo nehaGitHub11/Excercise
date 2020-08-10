@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,13 @@ namespace NehaExercise.Authentication
     {
         private const string defaultToken = "41bee812-7a3b-46c6-a306-5bd481d957a2";
 
+        private readonly ILogger<TokenAuthenticationRequest> _logger;
+
+        public TokenAuthenticationRequest(ILogger<TokenAuthenticationRequest> logger)
+        {
+            _logger = logger;
+        }
+
         /// <summary>
         /// check token
         /// </summary>
@@ -21,7 +29,11 @@ namespace NehaExercise.Authentication
         {
             string retrievedToken = Helper.GetToken(request);
 
-            if (string.IsNullOrWhiteSpace(retrievedToken)) return false;
+            if (string.IsNullOrWhiteSpace(retrievedToken))
+            {
+                _logger.LogInformation($"Appropriate token not found: {retrievedToken}");
+                return false;
+            }
 
 #region ValidateToken
             string validToken = "";
@@ -31,6 +43,8 @@ namespace NehaExercise.Authentication
             }
 
             if (string.IsNullOrEmpty(validToken)) validToken = defaultToken;
+
+            _logger.LogInformation($"Retrieved Token: {retrievedToken}");
 
             if (string.Compare(retrievedToken,validToken,false) == 0) return true;
 

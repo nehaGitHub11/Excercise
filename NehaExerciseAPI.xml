@@ -17,7 +17,7 @@
             This will provide you access to the answers for exercise
             </summary>
         </member>
-        <member name="M:NehaExercise.Controllers.AnswersController.#ctor(Microsoft.Extensions.Logging.ILogger{NehaExercise.Controllers.AnswersController},Microsoft.Extensions.Configuration.IConfiguration)">
+        <member name="M:NehaExercise.Controllers.AnswersController.#ctor(Microsoft.Extensions.Logging.ILogger{NehaExercise.Controllers.AnswersController},Microsoft.Extensions.Configuration.IConfiguration,System.Net.Http.IHttpClientFactory)">
             <summary>
             set up dependencies
             </summary>
@@ -26,8 +26,8 @@
         </member>
         <member name="M:NehaExercise.Controllers.AnswersController.Get(System.String)">
             <summary>
-            This GET method will return user and token if token is passed in Request header
-            For ex- token : "454444454-4545454"
+            This GET method will return user and 
+            token if token is passed in Request header or in query string
             </summary>
             <returns></returns>
         </member>
@@ -57,6 +57,16 @@
             </summary>
             <typeparam name="T"></typeparam>
             <param name="httpClient"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NehaExercise.Helper.PostAPIRequestAsync``2(System.Net.Http.HttpClient,``0)">
+            <summary>
+            post request and get the response with status,code and error
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <param name="httpClient"></param>
+            <param name="data"></param>
             <returns></returns>
         </member>
     </members>
